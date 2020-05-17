@@ -7,7 +7,7 @@ const Icon = (props) => {
   `;
 
   return (
-    <Icon className="icon" src={"./img/cloudy-day-2.svg"} alt="Weather Icon" />
+    <Icon className="icon" src="./img/cloudy-day-2.svg" alt="Weather Icon" />
   );
 };
 
