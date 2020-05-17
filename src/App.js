@@ -5,9 +5,9 @@ import WeatherCard from "./components/WeatherCard/component";
 function App() {
   return (
     <div className="App">
-      <WeatherCard temp="10" />
-      <WeatherCard temp="20" />
-      <WeatherCard temp="30" />
+      <WeatherCard temp="20" city="Stan" />
+      <WeatherCard temp="25" city="Nadine" />
+      <WeatherCard temp="40" city="Ysabelle" />
     </div>
   );
 }
